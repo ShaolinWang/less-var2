@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es2017",
     "module": "esnext",
-    "lib": ["esnext"],
+    "lib": ["ESNEXT"],
     "moduleResolution": "node",
     "esModuleInterop": true,
     "strict": true,
@@ -10,5 +10,8 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "skipDefaultLibCheck": true
-  }
+  },
+  "files": [
+    "./src/index.d.ts"
+  ],
 }
