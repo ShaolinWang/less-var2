@@ -10,6 +10,10 @@
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShaolinWang/less-vars.git"
+  },
   "main": "./dist/index.js",
   "contributes": {
     "configuration": {
@@ -33,7 +37,6 @@
       ]
     }
   },
-  "icon": "images/icon.png",
   "files": [
     "dist"
   ],
