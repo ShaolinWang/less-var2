@@ -2,7 +2,7 @@
   "publisher": "shaolinwang",
   "name": "less-var2",
   "displayName": "less-var2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "packageManager": "pnpm@7.0.1",
   "description": "chore version of less-vars",
@@ -47,7 +47,7 @@
     "onLanguage:less"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --external vscode",
+    "build": "tsup",
     "dev": "nr build --watch",
     "lint": "eslint .",
     "vscode:prepublish": "nr build",
@@ -72,9 +72,7 @@
     "typescript": "^4.7.3",
     "vite": "^2.9.11",
     "vitest": "^0.14.1",
-    "vsce": "^2.9.1"
-  },
-  "dependencies": {
+    "vsce": "^2.9.1",
     "color-alpha": "^1.1.3",
     "color-rgba": "^2.2.3",
     "get-css-colors": "^4.0.0",
